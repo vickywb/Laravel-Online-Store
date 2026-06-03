@@ -17,6 +17,7 @@ class DatabaseSeeder extends Seeder
         $this->call([
             UserSeeder::class,
         ]);
+        
         //php artisan db:seed --class=IndoRegionSeeder import data indo region
     }
 }
